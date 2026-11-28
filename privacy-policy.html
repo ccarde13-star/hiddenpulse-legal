@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad — HiddenPulse</title>
+<style>
+  :root{
+    --bg:#faf9f7; --surface:#ffffff; --ink:#1a1a1a; --ink-dim:#5a5a5a;
+    --accent:#0f6b5c; --border:#e4e1db; --code-bg:#f1efe9;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#15161a; --surface:#1c1e23; --ink:#eceae5; --ink-dim:#a7a49c;
+      --accent:#4fd9bd; --border:#2c2e34; --code-bg:#23252b;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#15161a; --surface:#1c1e23; --ink:#eceae5; --ink-dim:#a7a49c;
+    --accent:#4fd9bd; --border:#2c2e34; --code-bg:#23252b;
+  }
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.65;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding-block:56px 80px;}
+  header{margin-bottom:40px;}
+  .eyebrow{
+    font-size:13px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--accent); font-weight:600; margin:0 0 10px;
+  }
+  h1{font-size:clamp(28px,5vw,38px); margin:0 0 8px; letter-spacing:-0.01em;}
+  .meta{color:var(--ink-dim); font-size:14px; margin:0;}
+  section{margin-top:34px;}
+  h2{font-size:19px; margin:0 0 10px; letter-spacing:-0.005em;}
+  p{margin:0 0 12px; color:var(--ink);}
+  ul{margin:0 0 12px; padding-left:20px;}
+  li{margin-bottom:6px;}
+  .card{
+    background:var(--surface); border:1px solid var(--border);
+    border-radius:10px; padding:20px 22px;
+  }
+  code{
+    background:var(--code-bg); border-radius:4px; padding:2px 6px;
+    font-size:0.92em; font-family:"SF Mono",Menlo,Consolas,monospace;
+  }
+  a{color:var(--accent);}
+  footer{
+    margin-top:48px; padding-top:20px; border-top:1px solid var(--border);
+    color:var(--ink-dim); font-size:13px;
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">HiddenPulse / El Pulso</p>
+    <h1>Política de Privacidad</h1>
+    <p class="meta">Última actualización: 17 de septiembre de 2026</p>
+  </header>
+
+  <section>
+    <p>Esta política describe cómo HiddenPulse ("nosotros", "el canal") maneja la información al usar herramientas de programación y publicación automatizada de contenido en plataformas de redes sociales, incluyendo la API de TikTok ("Content Posting API").</p>
+  </section>
+
+  <section>
+    <h2>Quiénes somos</h2>
+    <div class="card">
+      <p>HiddenPulse / El Pulso es un canal de contenido educativo independiente sobre neurociencia y fenómenos verificables del cuerpo humano, publicado en YouTube (<code>@the-hidden-pulse</code>) y TikTok (<code>@thehiddenpulse_</code>).</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Qué información accedemos</h2>
+    <p>Al autorizar nuestra integración con tu cuenta de TikTok, accedemos únicamente a lo estrictamente necesario para publicar contenido en tu nombre:</p>
+    <ul>
+      <li>Información básica de perfil (nombre de usuario, foto de perfil) para confirmar que la cuenta conectada es la correcta.</li>
+      <li>Permiso para publicar video (<code>video.publish</code>) — usado exclusivamente para subir los videos que nosotros mismos producimos para este canal.</li>
+    </ul>
+    <p>No accedemos, leemos ni almacenamos mensajes privados, contactos, ni contenido de otras cuentas.</p>
+  </section>
+
+  <section>
+    <h2>Qué NO hacemos con tu información</h2>
+    <ul>
+      <li>No vendemos ni compartimos datos de la cuenta con terceros.</li>
+      <li>No usamos el acceso para fines distintos a programar y publicar el contenido propio del canal.</li>
+      <li>No publicamos contenido sin que haya sido revisado y aprobado por el operador del canal antes de programarse.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Retención de datos</h2>
+    <p>Las credenciales de acceso (tokens de autorización) se almacenan únicamente mientras la integración esté activa, en un entorno de cómputo privado y no compartido. Puedes revocar el acceso en cualquier momento desde la configuración de tu cuenta de TikTok, sección "Apps conectadas".</p>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <div class="card">
+      <p>Para preguntas sobre esta política o para solicitar la eliminación de datos asociados a la integración, contáctanos en:</p>
+      <p><a href="mailto:hiddenpulse.channel@gmail.com">hiddenpulse.channel@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    HiddenPulse / El Pulso — canal de contenido independiente.
+  </footer>
+</div>
+</body>
+</html>
